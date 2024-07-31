@@ -1,0 +1,32 @@
+{
+    "name": "pkg6/dcat-big-upload",
+    "alias": "",
+    "description": "Description...",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/pkg6/dcat-big-upload",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "your name",
+            "email": "your email"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pkg6\\Dcat\\BigUpload\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Pkg6\\Dcat\\BigUpload\\DcatBigUploadServiceProvider",
+        "laravel": {
+            "providers": [
+                "Pkg6\\Dcat\\BigUpload\\DcatBigUploadServiceProvider"
+            ]
+        }
+    }
+}
