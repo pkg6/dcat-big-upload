@@ -1,15 +1,15 @@
 {
     "name": "pkg6/dcat-big-upload",
     "alias": "",
-    "description": "Description...",
+    "description": "dcat large file upload (direct upload)",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
     "homepage": "https://github.com/pkg6/dcat-big-upload",
     "license": "MIT",
     "authors": [
         {
-            "name": "your name",
-            "email": "your email"
+            "name": "zhiqiang",
+            "email": "zhiqiang2033@gmail.com"
         }
     ],
     "require": {
